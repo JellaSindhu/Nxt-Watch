@@ -120,6 +120,9 @@ class HomeRoute extends Component {
         return (
           <LoaderOrFailureContainer value={lightTheme}>
             <FailureViewComponent retryFunction={this.getListOfVideosData} />
+            <RetryButton type="button" onClick={this.getListOfVideosData}>
+              Retry
+            </RetryButton>
           </LoaderOrFailureContainer>
         )
       case dataFetchStatusConstants.success:

@@ -87,7 +87,7 @@ const HeaderComponent = props => {
                 </HeaderItemsButton>
               </HeaderItems>
               <HeaderItems>
-                <HeaderProfileImage
+                <img
                   src="https://assets.ccbp.in/frontend/react-js/nxt-watch-profile-img.png"
                   alt="profile"
                 />
